@@ -178,6 +178,14 @@ nav a:hover{
     margin: 0 2rem 0 2rem;
     flex-wrap: wrap;
 }
+#recipe-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+
+}
 .recipe{
     /* height: 300px;*/
     width: 300px;

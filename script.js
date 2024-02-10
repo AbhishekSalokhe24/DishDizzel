@@ -6,6 +6,8 @@ let msgUser = document.querySelector(".msg-btn");
 let recipeCrossBtn = document.querySelector(".recipe-details .recipe-cross-btn");
 let recipeTxt = document.querySelector(".recipe-details-txt");
 let recipeDetailsDiv = document.querySelector(".recipe-details");
+
+let newRSP = document.querySelector("#recipe-container");
 console.log(recipeContainer)
 
 
@@ -14,7 +16,7 @@ const searchRecipe = async (query)=>{
 
     msgUser.innerHTML = "Your recipes are below..";
     
-     
+    newRSP.innerHTML = "";
     try {
         
         let data =  await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
@@ -36,7 +38,7 @@ const searchRecipe = async (query)=>{
             button.classList.add("recipe-btn");
             
             
-            recipeContainer.appendChild(recipeDiv);
+            newRSP.appendChild(recipeDiv);
             recipeDiv.appendChild(button);
     
             button.addEventListener("click",()=>{
