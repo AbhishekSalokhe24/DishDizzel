@@ -1,7 +1,9 @@
 ﻿# DishDizzel (Recipe Finder Website)
 
-![DishDizzel Converter Preview]()
-
+![DishDizzel Converter Preview](https://github.com/AbhishekSalokhe24/DishDizzel---Recipe-Finder-Website-/blob/main/images/DishDizzel%20Per%201.png)
+![DishDizzel Converter Preview](https://github.com/AbhishekSalokhe24/DishDizzel---Recipe-Finder-Website-/blob/main/images/DishDizzel%20Pre%202.png)
+![DishDizzel Converter Preview](https://github.com/AbhishekSalokhe24/DishDizzel---Recipe-Finder-Website-/blob/main/images/DishDizzel%20Pre%203.png)
+![DishDizzel Converter Preview](https://github.com/AbhishekSalokhe24/DishDizzel---Recipe-Finder-Website-/blob/main/images/DishDizzel%20Pre%204.png)
 ## Overview
 
 Welcome to DishDizzel, your go-to recipe finder website! This application allows users to explore and discover various recipes. With a simple and intuitive design, finding your favorite recipes has never been easier.
@@ -19,4 +21,4 @@ Welcome to DishDizzel, your go-to recipe finder website! This application allows
 1. Clone the repository:
 
    ```bash
-   <!-- git clone https://github.com/AbhishekSalokhe24/Currency-Converter-app -->
+   git clone https://github.com/AbhishekSalokhe24/DishDizzel---Recipe-Finder-Website-
