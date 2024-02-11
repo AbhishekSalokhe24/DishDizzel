@@ -4,11 +4,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Poppins', sans-serif;
-    
+    height: 100vh;
 }
+
+/* Nav bar */
 nav{
     width: 100%;
     height: 5rem;
@@ -46,6 +49,9 @@ nav a{
 nav a:hover{
     border-bottom: solid #e7f300;
 }
+
+
+/* Top Section */
 #top-section{
     background-image: url(/images/Background-green-1.jpg);
     background-repeat: no-repeat;
@@ -65,17 +71,16 @@ nav a:hover{
     padding: 0 2rem 0 2rem;
     background-color: #0c0f0e77 ;
 }
-.info h1{
-    font-size: 45px;
-    color: #fff;
-    font-weight: bolder;
 
+.info h2 {
+    margin: 1rem 3rem;
+    color: rgb(145, 255, 0);
 }
-.info h2{
-    color: rgb(145, 255, 0); 
-} 
-
-.info .btn{
+.red{
+    color: red;
+    font-weight: 800;
+}
+.info .btn1,.btn2,.btn3{
     padding: 7px;
     width: 10rem;
     margin-top: 1rem;
@@ -88,10 +93,16 @@ nav a:hover{
     margin: 5px;
 
 }
-.info .btn i{
+.info .btn1,.btn2,.btn3 i{
     padding-right: 7px;
 }
-
+.btn-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
 .info-2{
     background-color: #0c0f0e77 ;
     width: 100%;
@@ -161,21 +172,68 @@ nav a:hover{
     font-size: 15px;
     color: #fff;
 }
-.msg-btn{
-    padding: 1rem;
+
+/* services section */
+
+#Services{
     width: 100%;
+    background-color: #0042254f;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+#Services h2{
+    color: #371602;
+}
+#Services .services-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Services  .services-div .service-card{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 90px;
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
     background-color: #fff;
+    cursor: pointer;
+}
+.services-div .service-card p{
+    padding: 8px;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.services-div .service-card img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid #004225;
+    padding: 2px;
+}
+
+.msg-btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #004225;
     border: transparent;
-    border-bottom: 2px solid #004225;
-    color: #004225;
+    color: #fff;
     font-size: 25px;
 }
+
+/* Recipe View Section  */
+
+
 #recipe-section{
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 2rem 0 2rem;
     flex-wrap: wrap;
 }
 #recipe-container{
@@ -184,10 +242,8 @@ nav a:hover{
     justify-content: center;
     height: auto;
     flex-wrap: wrap;
-
 }
 .recipe{
-    /* height: 300px;*/
     width: 300px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -200,9 +256,7 @@ nav a:hover{
     margin: 1rem;
     padding: 10px;
 }
-/* .recipe:hover{
-    transform: scale(1.02);
-} */
+
 .recipe img{
     width: 100%;
     border-radius: 6px;
@@ -294,4 +348,17 @@ nav a:hover{
     background-color: #fff7;
     border-radius: 16px;
     --webkit-border-radius:16px;
+}
+footer{
+    background-color: #0042254f;
+    color: #0b0b0b;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+footer p{
+    padding: 15px;
 }

@@ -2,19 +2,36 @@ let searchBox = document.querySelector(".search-input");
 let searchBtn = document.querySelector(".search-btn");
 let recipeContainer = document.querySelector("#recipe-section");
 
+let EnterMsg = document.querySelector("#Enter-msg");
 let msgUser = document.querySelector(".msg-btn");
 let recipeCrossBtn = document.querySelector(".recipe-details .recipe-cross-btn");
 let recipeTxt = document.querySelector(".recipe-details-txt");
 let recipeDetailsDiv = document.querySelector(".recipe-details");
-
+let serBtn1 = document.querySelector(".btn1");
+let serBtn2 = document.querySelector(".btn2");
+let serBtn3 = document.querySelector(".btn3");
 let newRSP = document.querySelector("#recipe-container");
-console.log(recipeContainer)
+
+
+serBtn1.addEventListener("click",()=>{
+    alert("Not avialable Now");
+})
+serBtn2.addEventListener("click",()=>{
+    alert("Not avialable Now");
+})
+serBtn3.addEventListener("click",()=>{
+    alert("Not avialable Now");
+})
+
+setInterval(()=>{
+    EnterMsg.classList.toggle("red");
+},1000);
 
 
 const searchRecipe = async (query)=>{
 
 
-    msgUser.innerHTML = "Your recipes are below..";
+    msgUser.innerHTML = "Your recipes are Ready &#129395;...";
     
     newRSP.innerHTML = "";
     try {
