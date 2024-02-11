@@ -37,4 +37,14 @@
     .services-div .service-card p {
         font-size: 15px;
     }
+    .recipe-cross-btn {
+        padding: 1px;
+        right: 10px;
+        width: 31px;
+    }
+    .mealTitle {
+        color: rgb(255, 230, 0);
+        padding: 0px 5px 0 5px;
+        font-size: 20px;
+    }
 }
