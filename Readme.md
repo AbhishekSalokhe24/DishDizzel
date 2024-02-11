@@ -14,7 +14,7 @@ Welcome to DishDizzel, your go-to recipe finder website! This application allows
 - HTML
 - CSS
 - JavaScript
-- [Recipe Data API](https://github.com/fawazahmed0/currency-api) - Utilized for fetching real-time Recipe Data.
+- [Recipe Data API](https://www.themealdb.com/api.php) - Utilized for fetching real-time Recipe Data.
 
 ## Usage
 
